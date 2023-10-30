@@ -3,10 +3,12 @@
 #big-banner-content h4 {
     text-align: center;
     color: #ddd;
-    font-size : 1.5rem;
-    font-weight: normal;
+    font-size : 1.7rem;
+    font-style: italic;
+    /* font-weight: normal; */
     letter-spacing: 2px;
-    font-family: 'NeoDunggeunmoPro-Regular';
+    /* font-family: 'NeoDunggeunmoPro-Regular'; */
+    font-family: 'KimjungchulMyungjo-Bold';
     /*Create overlap*/
     margin: 0;
     line-height: 0;

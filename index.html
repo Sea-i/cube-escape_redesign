@@ -2,7 +2,6 @@
 <html lang="ko">
 <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>큐브 이스케이프</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./js/cube.js"></script>
@@ -26,13 +25,13 @@
                     <li><!-- <2> -->
                         <a href="#" class="header-menu-title">Theme</a>
                         <nav class="header-menu-sub">
-                            <a href="#" class="header-menu-sub-list">수유점</a>
-                            <a href="#" class="header-menu-sub-list">잠실점</a>
-                            <a href="#" class="header-menu-sub-list">홍대점</a>
-                            <a href="#" class="header-menu-sub-list">천호점</a>
-                            <a href="#" class="header-menu-sub-list">전주점</a>
-                            <a href="#" class="header-menu-sub-list">인천구월점</a>
-                            <a href="#" class="header-menu-sub-list">대전둔산점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">수유점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">잠실점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">홍대점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">천호점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">전주점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">인천구월점</a>
+                            <a href="./suyu-theme.html" class="header-menu-sub-list">대전둔산점</a>
                         </nav><!--//.header-menu-sub -->
                     </li><!-- <2> -->
                     <li><!-- <3> -->
@@ -66,43 +65,50 @@
         <main id="main-content">
             <section id="branch">
                 <h2>지점 소개</h2>
-                <p>원하시는 지점에서 테마를 고르던가 말던가 눌러서 예약을 하던가 말던가</p>
+                <p>원하시는 지점을 누르시면 테마 소개 및 예약 사이트로 이동됩니다</p>
                 <span class="hr"></span>
                 <div class="branch-content">
-                    <a href="#" class="branch_quick">
+                    <a href="./suyu-theme.html" class="branch_quick suyu">
                         <p>수유점</p>
                         <span>&#8227;</span>
+                        <img src="./img/수유점.jpg" alt="수유점">
                     </a>
-                    <a href="#" class="branch_quick">
+                    <a href="#" class="branch_quick jamsil">
                         <p>잠실점</p>
                         <span>&#8227;</span>
+                        <img src="./img/잠실점.jpg" alt="잠실점">
                     </a>
-                    <a href="#" class="branch_quick">
+                    <a href="#" class="branch_quick hongdae">
                         <p>홍대점</p>
                         <span>&#8227;</span>
+                        <img src="./img/홍대점.jpg" alt="홍대점">
                     </a>
-                    <a href="#" class="branch_quick">
+                    <a href="#" class="branch_quick chunho">
                         <p>천호점</p>
                         <span>&#8227;</span>
+                        <img src="./img/천호점.jpg" alt="천호점">
                     </a>
-                    <a href="#" class="branch_quick">
+                    <a href="#" class="branch_quick jeonju">
                         <p>전주점</p>
                         <span>&#8227;</span>
+                        <img src="./img/전주점.jpg" alt="전주점">
                     </a>
-                    <a href="#" class="branch_quick">
+                    <a href="#" class="branch_quick incheon">
                         <p>인천구월점</p>
                         <span>&#8227;</span>
+                        <img src="./img/인천점.jpg" alt="인천점">
                     </a>
-                    <a href="#" class="branch_quick">
+                    <a href="#" class="branch_quick daejeon">
                         <p>대전둔산점</p>
                         <span>&#8227;</span>
+                        <img src="./img/대전점.jpg" alt="대전점">
                     </a>
                 </div><!--//.branch-content -->
             </section><!--//#branch-->
 
             <section id="precaution">
                 <h2>주의사항</h2>
-                <p>하지말란 건 하지마라</p>
+                <p>안전한 문화생활을 위해 아래의 준수사항을 꼭 지켜주시기 바랍니다</p>
                 <span class="hr"></span>
                 <div class="precaution-content">
                     <ul>
@@ -143,13 +149,13 @@
                     <a href="#"><img src="#" alt="인스타그램 바로가기"></a>
                 </div> -->
             </div><!--//#foot-content -->
-            <a href="https://sea-i.github.io/sea_portfolio2023" id="copyright">Redesign by <span class="copy">Kimseoha</span></a>
-        </footer>
+            <a href="https://sea-i.github.io/sea_portfolio2023" target="_blank" id="copyright">Redesign by <span class="copy">Kimseoha</span></a>
+        </footer><!--//#footer -->
 
         <div id="side-btn">
-            <a href="#" class="reservation-btn">예약<br>하기</a>
+            <a href="javascript:alert('예약이 마감되어 예약 하실 수 없습니다.')" class="reservation-btn">예약<br>하기</a>
             <!-- <a href="#layout" class="top"><img src="./img/up.png" alt="top-up"></a> -->
-        </div>
+        </div><!--//#side-btn -->
     </div><!--//#layout -->
 </body>
 </html>

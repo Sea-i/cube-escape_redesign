@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#suyu-main-content {
+    background: #222;
+    width : 100%;
+    /* height : 1000px; */
+    padding-top : 130px;
+    margin : 0 auto;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    color : white;
+}
+
+#suyu-theme {
+    width : 1200px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+#suyu-theme h2 {
+    font-size : 1.6rem;
+    letter-spacing: 1px;
+}
+#suyu-theme p {
+    font-family: 'GmarketSansLight';
+    font-size : 0.85rem;
+    text-align: center;
+    line-height : 170%;
+    margin : 20px 0;
+}
+
+.theme-content {
+    margin : 0 auto;
+    display : flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.theme-info {
+    position : relative;
+    width : 30%;
+    text-align: left;
+    border : 10px solid black;
+    margin : 20px;
+}
+.theme-txt {
+    position : absolute;
+    top : 0; left : 0;
+    width : 100%;
+    height : 100%;
+    background: rgba(0, 0, 0, 0.85);
+    color : white;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction : column;
+
+    display : none;
+}
+.theme-txt li {
+    width : 100%;
+    margin : 2px 0;
+    padding : 0 20px;
+    line-height: 160%;
+}
+.theme-txt li a {
+    color : white;
+    margin-top : 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding : 3px 0;
+    text-align: center;    
+}
+.theme-txt li a:hover {
+    background: #f69b01;
+}
+.level  {
+    display : flex;
+    align-items: center;
+    margin : 0;
+}
+.level  img {
+    margin-left : 5px;
+}
+.theme-txt hr {
+    width : 90%;
+    border-top : 1px solid white;
+}
+.theme-txt hr:first-of-type { 
+    margin-top : 10px; 
+}
+.theme-txt hr:last-of-type { 
+    margin-bottom : 10px; 
+}
+li.story {
+    margin : 10px 0;    
+}
