@@ -116,6 +116,7 @@ ol, ul {
 }
 .header-menu-title {
     font-weight: bold;
+    padding : 0 10px;
 }
 #header-menu a {
     width : 100%;
