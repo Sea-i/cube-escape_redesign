@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+html, body {
+    font-family: 'GmarketSansMedium';
+    color : white;
+}
+
+#cube-escape {
+    background: #222;
+    background: url(../img/cube-bg.jpg) no-repeat center center / cover;
+    width : 100%;
+    height : 1334px;
+    padding-top : 130px;
+    display : flex;
+    align-items: center;
+    flex-direction : column;
+}
+#cube-escape > section {
+    width : 800px;
+    height : 200px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-top : 30px;
+    overflow: hidden;
+    border-radius: 300px;
+}
+
+#cube-escape > section > div {
+    width : 400px;
+    height : 200px;
+    overflow: hidden;
+}
+#cube-escape > section .left {
+    position : relative;
+    background : #333;    
+}
+#cube-escape > section .left span {
+    position : absolute;
+    bottom : 62px;
+    left : -50px;
+    letter-spacing: -2px;
+    color : #707070;
+    font-size : 14rem;
+}
+#cube-escape > section .left h3{
+    font-size : 3rem;
+    position: absolute;
+    z-index: 1;
+    bottom : 10px;
+    right : 10px;
+    /* color : #e9e9e9; */
+    color : white;
+    opacity: 0.8;
+    /* background: #000; */
+}
+#cube-escape > section .right {
+    display : flex;
+    align-items: center;
+    padding-left : 20px;
+    font-size : 0.9rem;
+    line-height: 170%;
+    background: #707070;
+}
+#cube-escape > section .right span {
+    color : #f69b01;
+    font-weight: bold;
+}
+/* --- */
+#limit  .left  h3 {
+    text-align: right;
+    line-height: 110%;
+    /* background: tan; */
+    bottom : 200px;
+}
