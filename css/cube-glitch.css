@@ -2,33 +2,30 @@
 
 #big-banner-content h4 {
     text-align: center;
-    color: #ddd;
-    font-size : 1.7rem;
+    color : rgba(255 255 255 / 0.8 );
+    font-size : 1.9rem;
     font-style: italic;
-    /* font-weight: normal; */
     letter-spacing: 2px;
-    /* font-family: 'NeoDunggeunmoPro-Regular'; */
     font-family: 'KimjungchulMyungjo-Bold';
-    /*Create overlap*/
+
     margin: 0;
     line-height: 0;
-    /*Animation*/
+
     animation : g1 2.5s infinite;
 }
 .glitch2 {
-    color: #67f3da;
+    color: rgba(103, 243, 217, 0.8);
     animation : g2 2.5s infinite;
 }
 .glitch3 {
-    color: #f16f6f;
+    color: rgba(241, 111, 111, 0.8);
     animation : g3 2.5s infinite;
 }
 #big-banner-content h4 span {
-    /* color :  #f69b01; */
-    color : #e70000;
+    color : rgba(231, 0, 0, 0.8);
     font-weight: bold;
 }
-/* Keyframes */
+
 @keyframes g1 {
     0% { 
         transform: none;

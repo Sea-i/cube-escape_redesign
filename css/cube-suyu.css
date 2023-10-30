@@ -79,11 +79,14 @@
     /* margin-top : 10px; */
     font-size: 0.9rem;
     font-weight: bold;
-    padding : 3px 0;
+    padding : 5px 0 3px;
     text-align: center;    
+    box-sizing: content-box;
+    border : 1px solid white;
 }
 .theme-txt li a:hover {
     background: #f69b01;
+    border : 1px solid #f69b01;
 }
 .level  {
     display : flex;

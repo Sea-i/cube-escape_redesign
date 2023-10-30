@@ -97,19 +97,12 @@ ol, ul {
     height : 70px;
 }
 #header-menu {
-    /* position : absolute; */
-    /* width : 100%; */
-    /* top : 120px; */
-    /* left : 0; */
-    /* display : none; */
     flex : 1;
     position: relative;
     z-index: 5;
     overflow: hidden;
 }
 #header-menu ul {
-    /* background: rgba(0 0 0 / 0.9); */
-    /* background: gold; */
     width : 100%;
     height : 80px;
     display : flex;
@@ -146,7 +139,7 @@ ol, ul {
 }
 /* --- */
 #big-banner-content {
-    background: url(../img/bg.jpg) no-repeat center center / cover;
+    background: url(../img/background.jpg) no-repeat center center / cover;
     display : flex;
     align-items: center;
     flex-direction: column;
@@ -160,10 +153,11 @@ ol, ul {
 #big-banner-content h2 {
     /* font-family: 'GmarketSansBold'; */
     /* font-weight: normal; */
-    font-size : 1.8rem;
+    font-size : 2rem;
     /* letter-spacing: 2px; */
     font-style: italic;
-    color : #ddd;
+    /* color : #ddd; */
+    color : white;
     line-height : 120%;
     margin-bottom : 40px;
 }
@@ -236,8 +230,7 @@ ol, ul {
 }
 #branch .branch_quick:hover  img{
     filter : blur(4px);
-    /* background: #f69b01; */
-    
+    /* background: #f69b01; */   
 }
 /* --- */
 #precaution {
@@ -249,7 +242,7 @@ ol, ul {
     margin-top : 10px;
 }
 #precaution .precaution-content {
-    width : 70%;
+    width : 50%;
     margin : 20px auto 0;
 }
 #precaution .precaution-content ul {

@@ -2,19 +2,21 @@
 <html lang="ko">
 <head>
     <meta charset="utf-8">
-    <title>큐브 이스케이프</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>큐브 이스케이프 | 수유</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./js/cube.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="./css/cube.css">
     <link rel="stylesheet" href="./css/cube-glitch.css">
+    <link rel="stylesheet" href="./css/cube-suyu.css">
     <link rel="shortcut icon" href="./img/favicon.png">
 </head>
 <body>
     <div id="layout">
         <div id="header-content">
             <header id="header">
-                <h1 id="logo"><a href="#layout"><img src="./img/logo.png" alt="로고"></a></h1>
+                <h1 id="logo"><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
             </header><!--//#header -->
 
             <nav id="header-menu">
@@ -55,72 +57,6 @@
             </nav><!--//#header-menu-->            
         </div><!--//#header-content -->
 
-        <section id="big-banner-content">
-            <h2>주변의 모든 것이 단서다<br>미스터리와 퍼즐을 풀고 단서를 조합하여<br>이 곳을 탈출하라</h2>
-            <h4 class="glitch1">주어진 시간은 단 <span>60분</span></h4>
-            <h4 class="glitch2">주어진 시간은 단 <span>60분</span></h4>
-            <h4 class="glitch3">주어진 시간은 단 <span>60분</span></h4>
-         </section><!--//#big-banner-content -->
-
-        <main id="main-content">
-            <section id="branch">
-                <h2>지점 소개</h2>
-                <p>원하시는 지점을 누르시면 테마 소개 및 예약 사이트로 이동됩니다</p>
-                <span class="hr"></span>
-                <div class="branch-content">
-                    <a href="./suyu-theme.html" class="branch_quick suyu">
-                        <p>수유점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/수유점.jpg" alt="수유점">
-                    </a>
-                    <a href="./suyu-theme.html" class="branch_quick jamsil">
-                        <p>잠실점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/잠실점.jpg" alt="잠실점">
-                    </a>
-                    <a href="./suyu-theme.html" class="branch_quick hongdae">
-                        <p>홍대점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/홍대점.jpg" alt="홍대점">
-                    </a>
-                    <a href="./suyu-theme.html" class="branch_quick chunho">
-                        <p>천호점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/천호점.jpg" alt="천호점">
-                    </a>
-                    <a href="./suyu-theme.html" class="branch_quick jeonju">
-                        <p>전주점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/전주점.jpg" alt="전주점">
-                    </a>
-                    <a href="./suyu-theme.html" class="branch_quick incheon">
-                        <p>인천구월점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/인천점.jpg" alt="인천점">
-                    </a>
-                    <a href="./suyu-theme.html" class="branch_quick daejeon">
-                        <p>대전둔산점</p>
-                        <span>&#8227;</span>
-                        <img src="./img/대전점.jpg" alt="대전점">
-                    </a>
-                </div><!--//.branch-content -->
-            </section><!--//#branch-->
-
-            <section id="precaution">
-                <h2>주의사항</h2>
-                <p>안전한 문화생활을 위해 아래의 준수사항을 꼭 지켜주시기 바랍니다</p>
-                <span class="hr"></span>
-                <div class="precaution-content">
-                    <ul>
-                        <li class="pre-info"><img src="./img/스포금지.png" alt="스포일러 금지"><span>스포일러 금지</span></li>
-                        <li class="pre-info"><img src="./img/촬영금지.png" alt="사진촬영금지"><span>사진촬영금지</span></li>
-                        <li class="pre-info"><img src="./img/위험물질반입금지.png" alt="위험물질 반입금지"><span>위험물질 반입금지</span></li>
-                        <li class="pre-info"><img src="./img/물품파손주의.png" alt="물품파손주의"><span>물품파손주의</span></li>
-                    </ul>
-                </div>
-            </section><!--//#precaution -->
-        </main><!--//#main-content -->
-
         <footer id="footer">
             <div id="foot-content">
                 <div id="foot-info">
@@ -149,11 +85,11 @@
                     <a href="#"><img src="#" alt="인스타그램 바로가기"></a>
                 </div> -->
             </div><!--//#foot-content -->
-            <a href="https://sea-i.github.io/sea_portfolio2023" target="_blank" id="copyright">Redesign by <span class="copy">Kimseoha</span></a>
+            <a href="https://sea-i.github.io/sea_portfolio2023" id="copyright">Redesign by <span class="copy">Kimseoha</span></a>
         </footer><!--//#footer -->
 
         <div id="side-btn">
-            <a href="javascript:alert('예약이 마감되어 예약 하실 수 없습니다.')" class="reservation-btn">예약<br>하기</a>
+            <a href="javascript:alert('모든 예약이 마감되어 예약 하실 수 없습니다.')" class="reservation-btn">예약<br>하기</a>
             <!-- <a href="#layout" class="top"><img src="./img/up.png" alt="top-up"></a> -->
         </div><!--//#side-btn -->
     </div><!--//#layout -->
