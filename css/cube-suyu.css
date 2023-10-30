@@ -18,11 +18,13 @@
     text-align: center;
 }
 #suyu-theme h2 {
+    font-family: 'GmarketSansBold';
     font-size : 1.6rem;
+    font-weight: normal;
     letter-spacing: 1px;
 }
 #suyu-theme p {
-    font-family: 'GmarketSansLight';
+    font-family: 'GmarketSansMedium';
     font-size : 0.85rem;
     text-align: center;
     line-height : 170%;
@@ -47,7 +49,7 @@
     top : 0; left : 0;
     width : 100%;
     height : 100%;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.95);
     color : white;
 
     display : flex;
@@ -59,13 +61,22 @@
 }
 .theme-txt li {
     width : 100%;
-    margin : 2px 0;
-    padding : 0 20px;
+    margin : 1px 0;
+    padding : 0 10px;
     line-height: 160%;
+    font-family: 'GmarketSansMedium';
+    font-size : 0.8rem;
+    letter-spacing: -0.5px;
+}
+.theme-txt li:first-of-type {
+    margin-bottom: 5px;
+}
+.theme-txt li b {
+    font-size : 0.9rem;
 }
 .theme-txt li a {
     color : white;
-    margin-top : 10px;
+    /* margin-top : 10px; */
     font-size: 0.9rem;
     font-weight: bold;
     padding : 3px 0;
@@ -83,15 +94,16 @@
     margin-left : 5px;
 }
 .theme-txt hr {
-    width : 90%;
+    width : 100%;
     border-top : 1px solid white;
 }
 .theme-txt hr:first-of-type { 
-    margin-top : 10px; 
+    margin-top : 15px; 
 }
 .theme-txt hr:last-of-type { 
-    margin-bottom : 10px; 
+    margin-bottom : 15px; 
 }
 li.story {
-    margin : 10px 0;    
+    margin : 15px 0px;    
+    font-size : 0.8rem;
 }
