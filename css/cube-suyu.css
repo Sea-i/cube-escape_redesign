@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+#header-menu li:nth-of-type(2) > a {
+    color :  #f69b01;
+}
 #suyu-main-content {
     background: #222;
     width : 100%;
@@ -13,7 +16,8 @@
 }
 
 #suyu-theme {
-    width : 100%;
+    /* width : 1200px; */
+    width : 95%;
     margin: 0 auto 20px;
     text-align: center;
 }
@@ -32,7 +36,6 @@
 }
 
 .theme-content {
-    width : 1200px;
     margin : 0 auto;
     display : flex;
     align-items: center;
@@ -43,7 +46,11 @@
     width : 30%;
     text-align: left;
     border : 10px solid black;
-    margin : 20px;
+    border : 3% solid red;
+    margin : 15px;
+}
+.theme-info > img {
+    width : 100%;
 }
 .theme-txt {
     position : absolute;

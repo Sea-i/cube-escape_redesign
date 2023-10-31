@@ -1,75 +1,128 @@
 @charset "utf-8";
 
-html, body {
+#header-menu li:nth-of-type(1) a {
+    color :  #f69b01;
+}
+#cube-escape {
     font-family: 'GmarketSansMedium';
     color : white;
-}
-
-#cube-escape {
     background: #222;
     background: url(../img/cube-bg.jpg) no-repeat center center / cover;
     width : 100%;
-    height : 1334px;
+    /* height : 1334px; */
+    height : 100vh;
     padding-top : 130px;
     display : flex;
     align-items: center;
     flex-direction : column;
+    cursor : default;
 }
-#cube-escape > section {
-    width : 800px;
-    height : 200px;
+#cube-escape h2 {
+    font-size : 2rem;
+    letter-spacing: 1pt;
+    margin-bottom : 10px;
+}
+#cube-escape > div {
+    width : 650px;
+    height : 720px;
+    overflow : hidden;
+}
+#cube-escape > div  > section {
+    width : 650px;
+    height : 150px;
     display : flex;
     align-items: center;
     justify-content: center;
     margin-top : 30px;
     overflow: hidden;
-    border-radius: 300px;
+    border-radius: 200px;
 }
 
-#cube-escape > section > div {
-    width : 400px;
-    height : 200px;
-    overflow: hidden;
-}
-#cube-escape > section .left {
+#cube-escape > div > section .left {
     position : relative;
     background : #333;    
+    width : 220px;
+    height : 150px;
+    overflow: hidden;
 }
-#cube-escape > section .left span {
+#cube-escape > div  > section .left span {
+    font-weight: bold;
     position : absolute;
-    bottom : 62px;
-    left : -50px;
+    bottom : 50px;
+    left : -30px;
     letter-spacing: -2px;
     color : #707070;
-    font-size : 14rem;
+    font-size : 8rem;
 }
-#cube-escape > section .left h3{
-    font-size : 3rem;
+#cube-escape > div  > section .left h3{
+    font-size : 1.7rem;
     position: absolute;
     z-index: 1;
-    bottom : 10px;
-    right : 10px;
-    /* color : #e9e9e9; */
+    bottom : 5px;
+    right : 5px;
     color : white;
     opacity: 0.8;
-    /* background: #000; */
 }
-#cube-escape > section .right {
+#cube-escape > div  > section .right {
     display : flex;
     align-items: center;
     padding-left : 20px;
-    font-size : 0.9rem;
+    padding-top : 10px;
+    font-size : 0.8rem;
     line-height: 170%;
     background: #707070;
+    width : 480px;
+    height : 150px;
+    overflow: hidden;
 }
-#cube-escape > section .right span {
+#cube-escape > div  > section .right span {
     color : #f69b01;
     font-weight: bold;
 }
 /* --- */
 #limit  .left  h3 {
     text-align: right;
-    line-height: 110%;
-    /* background: tan; */
-    bottom : 200px;
+}
+/* ------ */
+/* < animation > */
+#how {
+    animation : howLeft 2.5s both;
+    /* transition : 0.5s; */
+}
+#proceed {
+    animation : proceedLeft 2.5s both 1s;
+    /* transition : 0.5s; */
+}
+#limit {
+    animation : limitLeft 2.5s both 2s;
+    /* transition : 0.5s; */
+}
+#secret {
+    animation : secretLeft 2.5s both 3s;
+    /* transition : 0.5s; */
+}
+/* < @keyframes > */
+@keyframes howLeft {
+    0% {
+        opacity : 0%;
+        transform: translateX(-300px);
+    }
+}
+@keyframes proceedLeft {
+    0% {
+        opacity : 0%;
+        transform: translateX(-300px);
+    }
+}
+@keyframes limitLeft {
+    0% {
+        opacity : 0%;
+        transform: translateX(-300px);
+    }
+}
+@keyframes secretLeft {
+    0% {
+        opacity : 0%;
+        transform: translateX(-300px);
+    }
 }
